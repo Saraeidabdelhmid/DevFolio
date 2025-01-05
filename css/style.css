@@ -1,0 +1,680 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, .logo {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+
+    color:black !important;
+    margin-inline:.9375rem ;
+  padding: 0;
+
+   
+   
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+
+
+    border-bottom: .125rem solid black ;
+
+
+}
+
+.nav-item{
+    margin-inline: .3125rem;
+ font-size: .9375rem;
+
+}
+
+header{
+
+
+background-image:linear-gradient(rgba(0, 0, 1, 0.644),rgba(0, 0, 0, 0.658)),url(../imgs/bg.jpg);
+background-size: cover;
+background-attachment: fixed;
+
+
+}
+header h2{
+
+    font-size:50px;
+ 
+ 
+ }
+
+
+ header p{
+
+   font-size:  3.125rem;
+   
+
+}
+
+header p::after {
+    content: "     |";
+    animation: typing 7s infinite;
+    font-weight: bolder;
+    color: #fff;
+    
+  
+}
+
+
+
+/* Photographer 12| Designer 8| Developer| 8 */
+
+
+/* Keyframes for typing effect */
+@keyframes typing {
+
+
+
+     
+    /* Developer section */
+    0% { content: " Dev|"; }
+    1% { content: " Deve|"; }
+   2% { content: " Devel|"; }
+    3% { content: " Develo|"; }
+    4% { content: " Develop|"; }
+    5% { content: " Developer|"; }
+    13% { content: " Developer|"; }
+    15% { content: " Developer|"; }
+    17% { content: " Developer|"; }
+    19% { content: " Developer|"; }
+    21% { content: " Develope|"; }
+    22% { content: " Develop|"; }
+    22% { content: " Develo|"; }
+   24% { content: " Devel|"; }
+    25% { content: " Deve|"; }
+    25% { content: " Dev|"; }
+    26% { content: " De|"; }
+    27% { content: " D|"; }
+    28% { content: " |"; }
+
+
+
+    41% { content: " |"; }
+   43% { content: " D|"; }
+    44% { content: " De|"; }
+    45% { content: " Des|"; }
+    46% { content: " Desi|"; }
+    47% { content: " Desig|"; }
+    48% { content: " Design|"; }
+    49% { content: " Designer|"; }
+    49% { content: " Designer|"; }
+    58% { content: " Designer|"; }
+    59% { content: " Designer|"; }
+    60% { content: " Designer|"; }
+    
+    62% { content: " Designer| "; }
+    64% { content: " Designer|"; }
+    66% { content: " Designer| "; }
+    67% { content: " Designe|"; }
+    68% { content: " Design|"; }
+    68% { content: " Desig|"; }
+    69% { content: " D|"; }
+    
+    76% { content: " L|"; }
+    76% { content: " La|"; } 
+    77% { content: " Larr|"; }
+    78% { content: " Larry|"; }
+    79% { content: " Larry Da |"; }
+    80% { content: " Larry Danie |"; }
+    80% { content: " Larry Daniel|"; }
+   81% { content: " Larry Daniels|"; }
+    82% { content: " Larry Daniels|"; }
+    90% { content: " Larry Daniels|"; }
+    91% { content: " Larry Daniels|"; }
+    92% { content: " Larry Daniels|"; }
+    93% { content: " Larry Danie|"; }
+    94% { content: " Larry Danie|"; }
+    95% { content: " Larry Dan|"; }
+    96% { content: " Larry |"; }
+    97% { content: " Larr|"; }
+98% { content: " Larr|"; }
+    99% { content: " La|"; }
+   100% { content: " |"; }
+   
+}
+
+
+
+
+.img{
+   
+width: 25rem;
+height: 25rem;
+    background-color: white; /* لون الخلفية الأساسي */
+    background-image: 
+        radial-gradient(circle, rgba(0, 0, 0, 0.233) 10%, transparent 10%),
+        radial-gradient(circle, rgba(0, 0, 0, 0.219) 10%, transparent 10%);
+    background-size: 1.25rem 1.25rem; /* حجم النقاط */
+    background-position: 0 0,  .625rem; /* موضع النقاط */
+    transform: translatey(20%);
+}
+
+
+
+
+
+
+.hero {
+
+
+    transform: translate(7%,-20%);
+
+}
+
+
+.progress {
+    background-color: #e0e0e0; 
+    border-radius: 5px; 
+    height: 1.5625rem; 
+   
+}
+
+.progress-bar {
+    background-color: #0a0c0c; 
+    height: 100%;
+    border-radius: 5px;
+    position: relative; 
+}
+
+.progress-text {
+    position: absolute;
+    left: 90%; 
+   
+    color: white; 
+    font-weight: bold; 
+}
+.text2{
+
+    position: absolute; 
+    right: 42%;
+   
+    color: white; 
+    font-weight: bold; 
+}
+
+
+
+
+
+
+.about h3 {
+    position: relative; /* لجعل العنصر الحاوي نسبي */
+    font-weight: bold;
+}
+
+.about h3::after {
+    content: " "; 
+    background-color: rgb(10, 10, 10); 
+    width: .5rem; 
+    height:.5rem; 
+    border: .125rem solid rgb(5, 4, 4); 
+    border-radius: 50%; 
+    position: absolute; 
+   top: 55%;
+  margin-left:2px ;
+
+  
+}
+
+.buttom .btn{
+    border: 1px solid black;
+    font-size: 15px;
+ transition: all 1s ease;
+}
+
+.buttom .btn1 {
+    background-color:  black;
+    border: 1px solid black;
+    color: #fff;
+    
+    
+    
+}
+
+.buttom .btn1:hover{
+    background-color: #fff;
+    color:#0a0c0c
+    
+    
+    }
+    
+
+.buttom .btn2:hover {
+    background-color:black;
+    color: #fff;
+
+}
+
+
+
+
+.Services{
+    background-color: #e0e0e05e;
+}
+.Services h3 {
+    position: relative; /* لجعل العنصر الحاوي نسبي */
+    font-weight: bold;
+}
+
+.Services h3::after {
+    content: " "; 
+    background-color: rgb(10, 10, 10); 
+    width: .5rem; 
+    height:.5rem; 
+    border: .125rem solid rgb(5, 4, 4); 
+    border-radius: 50%; 
+    position: absolute; 
+   top: 30%;
+  margin-left:2px ;
+  
+}
+
+
+
+
+.Services .card i{
+width: 50px;
+height: 50px;
+ border-radius: 50%;
+ background-color: rgba(128, 128, 128, 0.233);
+ text-align: center;
+ transition: all 0.5s ease;
+ padding-bottom: 0;
+
+
+}
+
+
+.Services .card:hover i{
+    color: white;
+
+background-color: black;
+
+
+
+
+}
+
+
+
+.flex i{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+ 
+}
+
+
+
+.flex i:hover{
+   
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+ 
+}
+.box .layer{
+    overflow: hidden;
+    transform: translatey(20%);
+    transition: transform 0.5s ease ,background-color 0.5s  ease,border 0.1s 0.3s ease;
+    transform: translatey(5%);
+   opacity:0;
+}
+.box .layer:hover {
+background-color:white;
+border: 4px solid rgba(128, 128, 128, 0.329);
+transform: translatey(0%);
+opacity:1;
+}
+
+
+
+.nav-tabs .nav-link{
+
+color:black;
+font-weight: bold;
+
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+   border: 0px;
+    border-bottom: #0a0c0c solid 3px;
+   
+}
+
+
+
+
+.Portfolio h3 {
+    position: relative; /* لجعل العنصر الحاوي نسبي */
+    font-weight: bold;
+    width: 20%;
+    background-color: white; /* لون الخلفية الأساسي */
+    background-image: 
+        radial-gradient(circle, rgba(0, 0, 0, 0) 10%, transparent 10%),
+        radial-gradient(circle, rgba(0, 0, 0, 0.219) 10%, transparent 10%);
+    background-size: 1rem 1rem; /* حجم النقاط */
+    background-position: 1px 1px ; /* موضع النقاط */
+    margin: auto;
+    font-weight: 900;
+ width: 100%;
+ text-align: center;
+    
+}
+
+.Portfolio h3::after {
+    content: " "; 
+    background-color: rgb(10, 10, 10); 
+    width: .5rem; 
+    height:.5rem; 
+    border: .125rem solid rgb(5, 4, 4); 
+    border-radius: 50%; 
+    position: absolute; 
+   top: 30%;
+  margin-left:2px ;
+  
+}
+
+
+
+
+.heading-sec h3 {
+    position: relative; /* لجعل العنصر الحاوي نسبي */
+    font-weight: bold;
+    font-weight: 900;
+}
+
+.heading-sec h3::after {
+    content: " "; 
+    background-color: rgb(10, 10, 10); 
+    width: .5rem; 
+    height:.5rem; 
+    border: .125rem solid rgb(5, 4, 4); 
+    border-radius: 50%; 
+    position: absolute; 
+   top: 30%;
+  margin-left:2px ;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imgs{
+    width: 80px;
+    height: 80px;
+}
+.gray{
+    background-color: rgba(128, 128, 128, 0.199);
+}
+
+
+#slider .carousel-indicators button{
+
+width: 10px;
+height: 10px;
+border-radius: 50%;
+margin-top: 50px;
+
+
+}
+
+.imgs{
+    width: 80px;
+    height: 80px;
+}
+
+.carousel-indicators {
+  
+    z-index: 2;
+    display: flex;
+  
+    justify-content: center;
+    
+  
+   
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: gray;
+    margin-inline: 10px;
+}
+
+.carousel-caption {
+    padding-bottom: 0;
+}
+
+
+.gray1{
+background-color: #343434bd;
+
+padding:25px ;
+
+
+}
+.container .slider1 {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+.hove{
+width: 98%;
+height: 390px;
+top:1%;
+right: 1%;
+
+
+margin: auto;
+
+
+}
+
+
+
+
+
+.slider1 .socials i{
+    
+    color:white;
+    
+    background-color:#0a0c0c;
+    
+    transition: all 1s ease;
+    }
+    
+    
+    .slider1 .socials i:hover  {
+        color: black;
+    
+    background-color:white;
+    border: 1px solid black ;
+    
+    }
+
+    .slid {
+        
+        transform: scale(0.5) rotateY(0deg);
+        transition: transform 0.5s, opacity 0.5s;
+        opacity: 0;
+    }
+
+
+    .card:hover .slid {
+        transform: scale(1) rotateY(180deg);
+        opacity: 1;
+    }
+
+
+    .cardimg img{
+        transition: transform 0.5s;
+
+    }
+
+    .cardimg:hover img {
+        transform: scale(1.2) ;
+        
+    }
+
+
+    .text4 h3 {
+        position: relative; /* لجعل العنصر الحاوي نسبي */
+        font-weight: bold;
+        font-weight: 900;
+    }
+    
+    .text4 h3::after {
+        content: " "; 
+        background-color: rgb(10, 10, 10); 
+        width: .5rem; 
+        height:.5rem; 
+        border: .125rem solid rgb(5, 4, 4); 
+        border-radius: 50%; 
+        position: absolute; 
+       top: 30%;
+      margin-left:2px ;
+      
+    }
+    
+    
+
+
+
+    
+
+    .text5 h3 {
+        position: relative; /* لجعل العنصر الحاوي نسبي */
+        font-weight: bold;
+        font-weight: 900;
+    }
+    
+    .text5 h3::after {
+        content: " "; 
+        background-color: rgb(10, 10, 10); 
+        width: .5rem; 
+        height:.5rem; 
+        border: .125rem solid rgb(5, 4, 4); 
+        border-radius: 50%; 
+        position: absolute; 
+       top: 30%;
+      margin-left:2px ;
+      
+    }
+    
+    
+
+
+
+    
+
+.card2 i{
+    width: 50px;
+    height: 50px;
+     border-radius: 50%;
+     background-color: rgba(128, 128, 128, 0.233);
+     text-align: center;
+     transition: all 0.5s ease;
+     padding-bottom: 0;
+    
+    
+    }
+    
+    
+    .card2:hover i{
+        color: white;
+    
+    background-color: black;
+    
+    
+    }
+    
+    .btn button{
+
+background-color: #0a0c0c;
+color: #fff;
+transition: all 0.5s ease;
+    }
+
+
+     .btn button:hover{
+
+background-color:#fff;
+color:#0a0c0c;
+
+    }
+
+footer{
+   height: 10vh;
+   font-size: .8125rem;
+}
+
+
+
+@media screen and(max-width:600px) {
+    
+    
+
+.Portfolio h3 {
+    position: relative; /* لجعل العنصر الحاوي نسبي */
+    font-weight: bold;
+    width: 20%;
+    background-color: white; /* لون الخلفية الأساسي */
+    background-image: 
+        radial-gradient(circle, rgba(0, 0, 0, 0) 10%, transparent 10%),
+        radial-gradient(circle, rgba(0, 0, 0, 0.219) 10%, transparent 10%);
+    background-size: 1rem 1rem; /* حجم النقاط */
+    background-position: 1px 1px ; /* موضع النقاط */
+    margin: auto;
+    font-weight: 900;
+ 
+    
+}
+
+.Portfolio h3::after {
+    content: " "; 
+    background-color: rgb(10, 10, 10); 
+    width: .5rem; 
+    height:.5rem; 
+    border: .125rem solid rgb(5, 4, 4); 
+    border-radius: 50%; 
+    position: absolute; 
+   top: 35%;
+  margin-left:2px ;
+  
+}
+
+}
+
+
+
+.form-control:focus {
+
+    background-color:     rgba(128, 128, 128, 0.199);
+    box-shadow: none;
+    border-color:white;
+}
